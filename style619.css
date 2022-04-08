@@ -1,0 +1,35 @@
+
+@media (max-width: 619px)
+{
+	.menu_body
+	{
+		width: 100%;
+	}
+
+	#hero div
+	{
+		width: clamp(10px, 390px, 80%);
+	}
+	#hero p
+	{
+		width: clamp(10px, 390px, 80%);
+	}
+	#hero
+	{
+		background-position: center -30px;
+	}
+    
+	#contacts form
+	{
+		width: clamp(200px, 450px, 80%);
+	}
+    #contacts h2
+	{
+        font-size: clamp(10px, 32px, 150%);
+		width: clamp(200px, 450px, 80%);
+	}
+
+    footer{
+        margin: 0 auto;
+    }
+}

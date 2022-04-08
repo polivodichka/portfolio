@@ -1,0 +1,52 @@
+@media (max-width: 1440px)
+{
+	body
+	{
+		position: relative;
+	}
+	body
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	#portfolio-btns
+	{
+		flex-wrap: wrap;
+	}
+	#price-items
+	{
+		flex-wrap: wrap;
+	}
+	.price-item
+	{
+		margin: 3px auto;
+	}
+	/*#hero
+	{
+		margin-left: auto;
+	}
+	#hero div
+	{
+		flex-wrap: wrap;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	#hero p
+	{
+		flex-wrap: wrap;
+	}
+	#hero button
+	{
+		margin: 25px auto 0 0 !important;
+	}*/
+	#portfolio-items
+	{
+		justify-content: space-evenly;
+	}
+    #skills ul {
+        text-align: center;
+    }
+}
